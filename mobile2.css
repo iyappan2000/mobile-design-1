@@ -1,0 +1,111 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    height: 1020px;
+    width: 480px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+section:hover{
+    overflow: scroll;
+}
+header{
+    padding: 30px;
+    padding-top: 40px;
+    position: relative;
+    background-color: #d5e7e7;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    min-height: 300px;
+    margin-bottom: 20px;
+    padding: 20px 50px;
+}
+header img{
+    width: 70px;
+    height : 60px;
+    border-radius: 60%;
+}
+.title{
+
+    padding: 80px 10px;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.mark{
+    font-size: 1.9rem;
+    display: inline-block;
+    font-weight: bold;
+}
+.mark2{
+    flex: 1;
+    display: inline;
+}
+.search{
+    margin-bottom: 20px;
+}
+.search i{
+    position: absolute;
+    padding: 14px 20px;
+}
+.search p{
+    position: absolute;
+    padding-left: 50px;
+}
+.i2{
+    float: right;
+    padding-right: 40px;
+}
+.s1{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #494848;
+    opacity: 1.0;
+    background-color: #d5e7e7;
+}
+main{
+    padding: 30px;
+}
+.main h2{
+    font-size: 1.5rem;
+    color: #3E3049;
+    font-weight: 800;
+}
+.details{
+    display: flex;
+    background: #faf5f6;
+    padding:5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    flex: 1;
+    padding: 10px 30px;
+}
+.name{
+    font-weight: bold;
+}
+.aname{
+    color: rgb(97, 96, 96);
+}
+.score{
+    float: right;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
