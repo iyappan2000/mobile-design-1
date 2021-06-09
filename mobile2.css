@@ -18,8 +18,8 @@ section:hover{
     overflow: scroll;
 }
 header{
-    padding: 30px;
-    padding-top: 40px;
+    padding: 60px;
+    padding-top: 100px;
     position: relative;
     background-color: #d5e7e7;
     border-top-right-radius: 20px;
@@ -29,6 +29,7 @@ header{
     padding: 20px 50px;
 }
 header img{
+    margin-top: 40px;
     width: 70px;
     height : 60px;
     border-radius: 60%;
@@ -64,7 +65,7 @@ header img{
 }
 .i2{
     float: right;
-    padding-right: 40px;
+    padding-right: 60px;
 }
 .s1{
     padding: 15px;
